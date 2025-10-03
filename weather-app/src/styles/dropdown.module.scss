@@ -1,0 +1,11 @@
+.dropdown-menu.customDropdown  {
+  max-height: 27vh;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 576px) {
+  .dropdown-item.customItem {
+    padding: 0.1rem 0.35rem;
+    width: 70%;
+  }
+}
