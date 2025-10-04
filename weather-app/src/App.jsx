@@ -5,7 +5,7 @@ import Main from '../src/components/main/main.jsx';
 import '../src/App.css'
 
 
-const API_KEY ="ceb5fa7fd72a36586d5491c49d07d858";
+const API_KEY = API_KEY;
 
 
 function App() {
@@ -60,7 +60,3 @@ export default App;
 
 
   
-    // `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=imperial`;
-       //`https://api.openweathermap.org/data/2.5/forecast?q=${city}&cnt=7&appid=${API_KEY}&units=imperial`
-       //`https://api.openweathermap.org/data/2.5/forecast/daily?q=${city}&cnt=7&appid=${API_KEY}`
-       // const url =`https://api.openweathermap.org/data/2.5/forecast/daily?id=524901&appid={API_KEY}`
