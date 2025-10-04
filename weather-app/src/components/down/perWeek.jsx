@@ -8,7 +8,6 @@ const perWeek = ({city, forecast}) => {
     const date = new Date(dateStr);
   return  date.toLocaleDateString("en-GB", { weekday: 'long' });        
 }
-
       return (
       <>
  
@@ -51,19 +50,16 @@ const perWeek = ({city, forecast}) => {
          ) : (
               <div className = "col ">
       
-     <p>nothing to see </p>
+     <p> 404 </p>
          </div>
          )}
-
-      
       </div>
      </div>
     </div>
    </div>
-
      </>  
  
-  
      )}
+
 
 export default perWeek;
