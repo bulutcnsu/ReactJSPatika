@@ -20,6 +20,6 @@ such as instant messaging and data synchronization.
 
 ✨✨ ScreenShot
 
-<img src="./socketApi.png"  alt="Chat App Visual"/>
+<img src="./socketApi.png"  alt="Chat App Visual" with="700px"/>
 
 
