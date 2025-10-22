@@ -1,5 +1,5 @@
-#
-This project was developed under the supervision of an instructor within the scope of Partika Software Training.
+
+  📌📌 This project was developed under the supervision of an instructor within the scope of Partika Software Training.
 The code structure and architecture were created by the instructor, while the overall design layout, component placement, and visual style were chosen by me.
 📄 This work reflects the experience I gained during my learning process and my front-end practice.
 
@@ -18,5 +18,8 @@ such as instant messaging and data synchronization.
 
 🌐 Bidirectional data flow (client ↔ server) with API
 
+✨✨ ScreenShot
+
+<img src="./socketApi.png"  alt="Chat App Visual"/>
 
 
