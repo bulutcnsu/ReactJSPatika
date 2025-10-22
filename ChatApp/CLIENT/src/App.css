@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+
+}
+
+.container{
+  
+    width: 42vw;
+    height: 92vh;
+    text-align: center;
+    border: .5em, solid, #d9e1eb;
+    align-self: center;
+    display: inline-block;
+    border-radius: 1.5rem;
+    justify-content: center;
+    background: #b1bec9;
+    margin-top: 1vh;
+    overflow: auto;
+}
