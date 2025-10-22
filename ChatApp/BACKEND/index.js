@@ -16,7 +16,7 @@ const io = new Server(http, {
 app.use(cors());
 
 app.get("/", (req, res) => {
-	res.end("Merhaba Socket.IO");
+	res.end("Hello Socket.IO");
 });
 
 io.on("connection", (socket) => {
