@@ -25,7 +25,6 @@ const handleSubmit = (e)=> {
       <div className={styles.textInput}>
         <form onSubmit={handleSubmit}>
         <input  className={styles.textInput}
-        defaultValue="type something"
         value={message}
         onChange={(e)=> setMessage(e.target.value)}/> 
        
@@ -33,4 +32,5 @@ const handleSubmit = (e)=> {
       </div> 
     )
 }
+
 export default ChatForm;
