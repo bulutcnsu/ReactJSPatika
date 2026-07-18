@@ -38,7 +38,7 @@ const Constant = ({city, CityChange}) => {
             <Dropdown.Item  className={`dropdown-item ${styles.customItem}`}
                  key={index}
                 draggable="true"
-                style= {{backgroundColor:"#9f98e7c7",color:"#200c44"}}
+                style= {{backgroundColor:"#9f98e7c7",color:"#200c44",alignItems:'center'}}
                 onClick={() =>{
                 setSelectedCity(city.name);
                 selected.innerText = city.name; }}>
