@@ -2,12 +2,11 @@
 const Metrics =({weather}) =>{
 
 
-
     return(
  
   <div className="col-md-5" > 
 
-  {weather && weather.main && weather.weather && weather.wind && (  
+  {weather && weather.main && weather.weather && weather.wind ? (  
     <div className="row  " style={{ height:"99%"}}>
   
 
@@ -38,10 +37,43 @@ const Metrics =({weather}) =>{
             
    </div>
        </div>
-     )}
+     ) : (  
+
+        <div className="row  " style={{ height:"99%"}}>
+  
+
+   <div className = "col ">
+    <div className="row metrics-row">
+   <div >  <span> Real Feel </span><img className="metricImg"src={`/icons/temperature.svg`}/>  </div> 
+       <div className="metricInfo">  Unknown </div>
+    </div>
+            <div className='row metrics-row'> 
+              <div ><span>Wind </span><img className="metricImg"src={`/icons/wind1.svg`} /> </div> 
+              <div className="metricInfo"> Unknown km/h </div>
+                 
+         </div>
+   
+   </div>
+   <div className = "col ">
+    
+     <div className="row metrics-row " >
+       <div ><span> Humidity </span><img className="metricImg"src={`/icons/humid.svg`} /> </div> 
+       <div className="metricInfo"> Unknown </div>
+        </div>
+            
+       <div className='row metrics-row' >  
+       
+        <div><span>Gust</span> <img className="metricImg"src={`/icons/gust.svg`} /> </div> 
+              <div className="metricInfo"> Unknown km/h </div></div>
+            
+   </div>
+       </div>
+    
+    )
+    }
 
      </div>
 
-    )
+    );
 }
 export default Metrics;
