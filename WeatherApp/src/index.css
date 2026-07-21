@@ -246,247 +246,216 @@ button:focus-visible {
   }
 }
 
+@media only screen and (max-width: 604px) {
 
-@media only screen and (max-width: 767px) {
-  #root{
-    padding: .6rem.3rem;
-  }
-  .wrapper{
-   
-     min-height: 95%;
-     font-size: 0.6rem;
-     padding: .8rem .4rem;
-     min-height: 90%;
-     width: fit-content;
-  }
-  .container{
-    padding: .5rem;
-  box-sizing: border-box; }
- .row{
-  flex-wrap:wrap;
-  overflow: hidden;
- }
-  .top{
-  flex-direction: column-reverse;
- }
-  .col{
- display: flow-root;
- padding: .8rem;}
 
-:global(.dropdown-menu.show) {
- max-height: 27vh !important;
-  overflow-y: hidden !important
+  #root {
+    padding: 0 .2rem;
+  }
+
+}
+@media only screen and (min-width:605px)and (max-width: 768px) {
+  .container {
+    padding-left: 0%;
+    padding-right: 0%;
+    max-width: 760px;
+  }
+
+  .wrapper {
+    padding: .35rem;
+  }
+.row.top {
+  display: flex !important;
+  flex-direction: column-reverse !important;
 }
 
- .dropdown-menu.show {
-  position: fixed !important;
-  display: table-column;
-   max-height: 27vh !important;
-  overflow-y: hidden !important
-}
- .dropdown-menu .show ._customDropdown_1ehzb_1{
-    position: fixed;
-    inset: 0px auto auto 0px;
-    transform: translate3d(102px, 132px, 0px);
-    width: 90%;
+  .col {
+      align-items: center;
+  }
 
-  .show{
-    max-height: 27vh !important;
-    overflow-y: hidden !important
+  #mainImg {
+    width: 7.2rem;
+    height: 7.1rem;
+    margin: -.1em;
+  }
+
+  .metrics-row {
+    padding: .1rem;
+  }
+
+  .temperature {
+    font-size: 1.9em;
+  }
+
+  .city {
+    font-size: 1.5em;
+  }
+
+  .button {
+    padding: 0.4em .4em;
+    font-size: 1.1em;
+    font-weight: 600;
     }
- }
-  .dropdown-col{
- padding-left: 0%;
- padding-right: 0%; }
- 
- .col .daily{
-  padding: 0 .5rem;
- }
 
- .metrics-row{
-  width:auto;
-  padding: .6rem; }
-  
-  .metricTop{
- font-size: 1.7em;
- font-weight: 500;
- color: #686565;
-}
+  .dropdown-col {
+    padding: .6em;
+  }
 
- #dropdown-basic{
-    line-height: 1.0;
-    border-radius: .25rem;
-    min-width: 80%; 
-    background-color :#090d9540;
-    padding:.7em .5em;
-    margin:0 1.2em;
-    font-size: 1.3em;
-}
-
-.temperature {
-  font-size: 3.5em;
-  font-weight: bold;
-}
-.city{
-    font-size: 3em;
-}
- .dailyImg{
-   width: 8em;
-  height: 5.5em;}
-
-  .metricInfo{
-    font-size:1.7em;
-    font-weight: 800;  }
-  
-#mainImg{
-  width: 7.8rem;
-  height: 7.8rem;
-  margin:-.1em;
-   }
-.metricImg{
-     width: 2.5em;
-     height: 2.5em;
-   }
-   .downInfo{
-    font-size: 2.4em;
-   }
- span{
- font-size: 1.6em;
- }
-.condition {
-  font-size: 1.1em;
-}
-.button{
-    padding: 0.27em .5em;
-      font-size: 2em;
-    font-weight: 700
-}
 }
 
 
 
-@media only screen and (min-width:768px )and (max-width: 823px) {
-   .container{
+
+@media only screen and (min-width:769px)and (max-width: 820px) {
+  .container {
     padding-left: 0%;
     padding-right: 0%;
     max-width: 780px;
   }
-  .wrapper{
-    padding:.4rem;
+
+  .wrapper {
+    padding: .4rem;
   }
 
-  #mainImg{
-  width: 7.5rem;
-  height: 7.3rem;
-  margin:-.1em;
-   }
-   .metrics-row {
+  #mainImg {
+    width: 7.5rem;
+    height: 7.3rem;
+    margin: -.1em;
+  }
+
+  .metrics-row {
     padding: .2rem;
-   }
-   .temperature{
- font-size: 1.7em; }
+  }
 
- .city
- {font-size: 1.5em; }
-   
- .button{
-        padding: 0.3em .6em;
-      font-size: 1.1em;
-    font-weight: 600}
-         
-       .dropdown-col{
-      padding: .6em; }
+  .temperature {
+    font-size: 1.7em;
+  }
 
-      #dropdown-basic{  
-     width: 7.4em;
-      height:2.4em ;
-    font-size:1.15em;}
-    
-    .col .daily{
-    margin-inline:.4em;
-    padding:0 .7em;
-   }
-      .dailyImg{
-   width: 3.8em;
-  height: 3.8em;
+  .city {
+    font-size: 1.5em;
+  }
 
-}
- .downInfo{
-font-size:1.2em;
-}
-.metricImg{
-     width: 1.7em;
-     height: 1.7em;
-   }
- span{
- font-size: .85em;
- }
- 
-  .right-col{
-    padding:0;
-      border:"1px,solid";
-      width: "fit-content"
+  .button {
+    padding: 0.3em .6em;
+    font-size: 1.1em;
+    font-weight: 600
+  }
+
+  .dropdown-col {
+    padding: .6em;
+  }
+
+  #dropdown-basic {
+    width: 7.4em;
+    height: 2.4em;
+    font-size: 1.15em;
+     line-height: .8;
+  }
+
+  .col .daily {
+    margin-inline: .4em;
+    padding: 0 .7em;
+  }
+
+  .dailyImg {
+    width: 3.8em;
+    height: 3.8em;
+
+  }
+
+  .downInfo {
+    font-size: 1.2em;
+  }
+
+  .metricImg {
+    width: 1.7em;
+    height: 1.7em;
+  }
+
+  span {
+    font-size: .85em;
+  }
+
+  .right-col {
+    padding: 0;
+    border: "1px,solid";
+    width: "fit-content"
   }
 }
-@media only screen and (min-width:824px )and (max-width: 992px) {
 
-  .container{
+@media only screen and (min-width:821px)and (max-width: 992px) {
+
+  .container {
     padding-left: 0%;
     padding-right: 0%;
-   
-      }
-  .wrapper{
-    padding:1rem;
+
   }
-       .col-md-7 .row{
-        padding: .02em.4em;
-      }
-.downInfo{
-font-size:1.2em;}
 
-.metricInfo{
-  font-size:1em;
-}
-.temperature{
- font-size: 1.8em; }
+  .wrapper {
+    padding: 1rem;
+  }
 
-#mainImg{
-  width: 7.5rem;
-  height: 7.5rem;
-  margin:-.1em;
-   }
-   .metrics-row {
-    padding:.35em 0 .35em 0;
-   }
-  
-   
-   .dailyImg{
-   width: 3.4em;
-  height: 3.4em;
-}
- #dropdown-basic{  
-     width: 7.9em;
-      height:2.4em ;
-    font-size:1.1em ;
-    align-items: center;}
-    
-      .button{
-        padding: 0.4em .8em;
-      font-size: 1em;}
-          
-      .city{
-  font-size: 1.5em;}
-  .metricImg{
-  width: 1.9em;
-  height: 1.9em;
-}
+  .col-md-7 .row {
+    padding: .02em.4em;
+  }
 
- .col .daily{
-    margin-inline:.12em
-   }
-span{
-  font-size: .9em;
-}
+  .downInfo {
+    font-size: 1.2em;
+  }
+
+  .metricInfo {
+    font-size: 1em;
+  }
+
+  .temperature {
+    font-size: 1.8em;
+  }
+
+  #mainImg {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: -.1em;
+  }
+
+  .metrics-row {
+    padding: .35em 0 .35em 0;
+  }
+
+
+  .dailyImg {
+    width: 3.4em;
+    height: 3.4em;
+  }
+
+  #dropdown-basic {
+    width: 7.9em;
+    height: 2.4em;
+    font-size: 1.1em;
+    align-items: center;
+    line-height: .8;
+  }
+
+  .button {
+    padding: 0.4em .8em;
+    font-size: 1em;
+  }
+
+  .city {
+    font-size: 1.5em;
+  }
+
+  .metricImg {
+    width: 1.9em;
+    height: 1.9em;
+  }
+
+  .col .daily {
+    margin-inline: .12em
+  }
+
+  span {
+    font-size: .9em;
+  }
 
 }
 
